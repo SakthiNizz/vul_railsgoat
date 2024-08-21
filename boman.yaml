@@ -4,6 +4,6 @@ Auth:
 SAST:
   language: semgrep
 SCA:
-  language: python
+  language: ruby
 Secret_Scan: true
 SBOM: true
