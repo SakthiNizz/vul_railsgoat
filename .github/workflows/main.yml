@@ -24,4 +24,6 @@ jobs:
       - name: Install packages
         run: sudo pip install --extra-index-url https://test.pypi.org/simple/ boman-cli-uat
       - name: Run scan
+        env:
+          API_KEY: ${{ secrets.Goat_vul }}
         run: sudo boman-cli-uat -a run -u https://qa.boman.ai
