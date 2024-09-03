@@ -6,3 +6,4 @@ SAST:
 DAST:
   type: WEB
   URL: https://demo.testfire.net
+SBOM: true
