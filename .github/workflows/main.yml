@@ -26,5 +26,5 @@ jobs:
       - name: Run scan
         env:
           API_KEY: ${{ secrets.Goat_vul }}
-        run: sudo boman-cli-uat -a run -u https://qa.boman.ai -at 5ee72f4c-c175-4ccd-b9cb-d8ea23ed136a -ct 4941f85a-5453-4f94-9247-d5565b4bd116
+        run: sudo boman-cli-uat -a run -u https://qa.boman.ai -at dcb126ca-867c-4308-9eeb-6c473fc7baa5 -ct 41bb9111-e57f-43d9-aa15-8c2e751ddb36
         # run: sudo boman-cli-uat -a run -u https://qa.boman.ai
